@@ -5,29 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>CSS course</title>
+    <title>Site</title>
 </head>
 
 <body>
-    <div class="my-div">This is div two</div>
-    <div class="first">This is div</div>
-    <div class="border_explain">OK</div>
-    <button>Click</button>
 
-    <i class="fa-brands fa-google"></i>
-
-    <div class="display">I am display</div>
-    <span>i am span</span>
-
-    <div class="transform"></div>
-
-    <div class="parent">
-        <div class="child">1</div>
-        <div class="child">2</div>
-        <div class="child">3</div>
-        <div class="child">4</div>
-    </div>
+    <!------------------------------ Start header ------------------------------------>
+    <header>
+        <div class="container">
+            <div class="left">
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>abc@mohamed.com</span>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>123456789</span>
+                </div>
+            </div>
+            <div class="right">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </header>
+    <!------------------------------ End header ------------------------------------>
+    <!------------------------------ Start nav ------------------------------------>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/apple-icon.png" alt="Site logo">
+            </div>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping">
+                    <span class="cart_counter">7</span>
+                </i>
+                <i class="fa-solid fa-user">
+                    <div class="notification_counter">+99</div>
+                </i>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------ End nav ------------------------------------>
 </body>
 
 </html>
